@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <Version>1.0</Version>
+    <Title>BinaryTestOld</Title>
+    <Description>Description of BinaryTestOld</Description>
+    <TargetExt>.rhp</TargetExt>
+	<LangVersion>8.0</LangVersion>
+	<UserSecretsId>2eaac92e-a7fb-48b2-bf63-2f92273168d9</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="EmbeddedResources\**\*" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="RhinoCommon" Version="7.13.21348.13001" IncludeAssets="compile;build" />
+  </ItemGroup>
+  
+</Project>
